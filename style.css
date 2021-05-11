@@ -1,0 +1,50 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://getnavi.jp/wps/wp-content/uploads/2019/07/20190708_kubo03.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: black;
+}
+.main {
+  height: 90%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.65);
+  border-radius: 20%;
+  text-align: center;
+}
+.quiz1 li {
+  float: left;
+  list-style: none;
+}
+.btn {
+  border-radius: 5px;
+  background-color: #e6ffe9;
+  padding: 10px;
+  text-align: center;
+  color: black;
+  margin-top: 31px;
+  margin-bottom: 31px;
+}
+.btn1 {
+  border-radius: 5px;
+  background-color: #e6ffe9;
+  padding: 10px;
+  text-align: center;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
